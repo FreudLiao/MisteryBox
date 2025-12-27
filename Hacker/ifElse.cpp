@@ -1,8 +1,3 @@
-int main() {
-    int a, b;
-    cin >> a >> b;
-
-    for(int i = a; i <= b; i++){
         if(1 <= i && i <= 9){
             if(i == 1) {
                 cout << "one" << endl;
@@ -32,37 +27,3 @@ int main() {
             cout << "nine" << endl;
             }
         }
-        else if(i % 2 == 0) {
-                cout << "even" << endl;
-        }else{
-            cout << "odd" << endl;
-        }
-      }
-      return 0;
-}
-
-/*
-#include <iostream>
-#include <cstdio>
-#include <vector>
-using namespace std;
-
-int main() {
-    int a, b;
-    cin >> a >> b;
-    vector<string> s = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
-    
-    for(int i = a; i <= b; i ++){
-        if (1 <= i && i <= b) {
-            cout << s[i - 1];
-        }
-        else if (i % 2 == 0){
-            cout << "even";
-        }else {
-            cout << "odd";
-        }   
-    }
-    return 0;
-    
-}
-*/
