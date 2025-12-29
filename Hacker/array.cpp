@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
     int n;
-    cin  >> n;
-    int arr[n];
+    cin  >> n;  
+    int arr[n]; //宣告一個陣列
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
