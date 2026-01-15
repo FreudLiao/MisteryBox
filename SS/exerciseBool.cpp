@@ -8,7 +8,7 @@ int main()
     cout << "請輸入年齡：";
     cin  >> age;
     
-    bool isAdult = (age >= 18); // 創造一個可以判斷的變數
+    bool isAdult(age >= 18); // 創造一個可以判斷的變數
 
     if (isAdult) 
     {
