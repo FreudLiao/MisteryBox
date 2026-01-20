@@ -15,7 +15,7 @@ public:
         for(int i = 0; i < n ; i++){
             int a = roman[s[i]];
             if(a < roman[s[i + 1]]){
-                sum -= a;
+                sum -= a;// 累減
             }else{
                 sum += a;// 累加
             }
